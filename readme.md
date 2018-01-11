@@ -12,7 +12,6 @@
 4. 會出現一個小框框，上面列表有一個 `Console` 可以輸入 javascript 程式
 5. 把下列程式貼上，按下enter 即可送出，再次點開剛剛那門課就可以發現已經被填寫完了
 
-
 ``` javascript
 
 var radios;
@@ -26,6 +25,10 @@ window.frames[1].document.getElementsByName('OPN_REM')[0].value='嗨嗨老師好
 var form = window.frames[1].document.getElementById('frmST').submit();
 
 ```
+
+### 動圖教學
+
+![](https://github.com/z9001012/ntunhs-fill-student-evaluation/blob/master/readme.gif?raw=true)
 
 
 
