@@ -40,10 +40,10 @@ var form = window.frames[1].document.getElementById('frmST').submit();
 可以在程式的 `第8行` 修改 value 的值：
 
 ####例子：
-我想把 `嗨嗨老師好` 改成 `老師，我們下學期再見`
+我想把 `嗨嗨老師好` 改成 `老師，我們明年再見`
 
 ``` javascript
-window.frames[1].document.getElementsByName('OPN_REM')[0].value='老師，我們下學期再見';
+window.frames[1].document.getElementsByName('OPN_REM')[0].value='老師，我們明年再見';
 ```
 
 
